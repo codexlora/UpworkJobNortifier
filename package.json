@@ -1,0 +1,21 @@
+{
+  "name": "upworkrrssnotificator",
+  "version": "1.0.0",
+  "description": "Notify new jobs using Windows Notifications",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/mongodb": "^8.0.0",
+    "fastify": "^4.27.0",
+    "fs": "^0.0.1-security",
+    "node-cron": "^3.0.3",
+    "node-notifier": "^10.0.1",
+    "open": "^10.1.0",
+    "xml2js": "^0.6.2"
+  }
+}
